@@ -13,6 +13,7 @@ const rateLimit = require("express-rate-limit");
 const hpp = require("hpp");
 const cors = require("cors");
 const errorResponse = require("./utils/errorResponse");
+var zip = require('express-easy-zip');
 
 
 var indexRouter = require('./routes/index');
@@ -28,8 +29,12 @@ var app = express();
 
 app.use(bodyParser.json());
 
+//include zip
+app.use(zip());
+
 // Set static folder
 app.use(express.static(path.join(__dirname, "public")));
+// app.use(express.static('public'))
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"));

@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 const colors = require('colors');
 
 // Build the connection string 
-var dbURI = 'mongodb://localhost:27017/sikimyii';
+var dbURI = 'mongodb://localhost:27017/landing';
 
 //connect to mongo
 mongoose.connect(process.env.MONGODB_URI || dbURI, {
