@@ -1,8 +1,17 @@
 body {
+  background-color: black;
+  color: black;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+[data-theme="dark"] body {
+  background-color: black;
+  color: white;
+}
+
+
 a {
   color: #00B7FF;
 }
+
