@@ -14,7 +14,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/zip', function(req, res, next) {
-  re.archiveFile("./public/images/projectone.png", "./public/images/target.zip").then(function () {
+  re.archiveFile("./public/images/logo.png", "./public/images/target.zip").then(function () {
     const file = `./public/images/target.zip`;
     res.download(file); // Set disposition and send it.
     console.log("done");
