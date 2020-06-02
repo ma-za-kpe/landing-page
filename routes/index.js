@@ -7,6 +7,8 @@ var zip = require('express-easy-zip');
 const AdmZip = require('adm-zip');
 const re = require("zip-lib");
 
+// controllers
+const IndexController = require('../controllers/index');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -23,41 +25,8 @@ router.get('/zip', function(req, res, next) {
 });
 });
 
+//post link
+router.use('/postLink',IndexController.postLink);
 
-// router.get('/zip', function(req, res, next) {
-
-//   var dirPath = __dirname + "../images/projectone.png";
-
-//   console.log("path to asset " + path.join(__dirname, 'public'))
-
-//   res.zip({
-
-//        files: [
-
-//            {   
-//                 content: 'This is the project resource folder',      
-               
-//                 name: 'logo',
-               
-//                 mode: 0755,
-
-//                 comment: 'comment-for-the-file - test file',
-
-//                 date: new Date(),
-
-//                 type: 'file' },
-
-//                 { path: path.join(__dirname, '../images/projectone.png'), name: 'projectone.png' }    //or a folder
-
-           
-//           //  { path: dirPath, name: '../images' }   
- 
-//        ],
-       
-//          filename: 'app-project-files.zip'
-   
-//     });
-
-// });
 
 module.exports = router;
