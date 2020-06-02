@@ -18,6 +18,14 @@ module.exports = {
         });
 
         sendTokenResponse(link, 200, res);
+    }),
+     // @desc  get all lists
+    // @route  GET /getAllLists
+    // @access  Public
+    getAllLinks: asyncHandler(async (req, res) => {
+
+        res.status(200).json(res.advancedResults);
+
     })
     
 };
