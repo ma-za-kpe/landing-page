@@ -9,12 +9,18 @@ module.exports = {
     // @access    Public
     postLink: asyncHandler(async (req, res, next) => {
         const {
-            url
+            username,
+            email,
+            url,
+            project
         } = req.body;
 
         // Create link
         const link = await Link.create({
-            url
+            username,
+            email,
+            url,
+            project
         });
 
         sendTokenResponse(link, 200, res);
@@ -34,7 +40,7 @@ module.exports = {
 // Get token from model, create cookie and send response
 const sendTokenResponse = (link, statusCode, res) => {
     
-    res.status(204)
+    res.status(statusCode)
         .json({
             success: true,
             data: link
