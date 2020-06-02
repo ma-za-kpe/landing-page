@@ -18,6 +18,7 @@ module.exports = {
         });
 
         sendTokenResponse(link, 200, res);
+
     }),
      // @desc  get all lists
     // @route  GET /getAllLists
@@ -32,10 +33,11 @@ module.exports = {
 
 // Get token from model, create cookie and send response
 const sendTokenResponse = (link, statusCode, res) => {
-    res
-        .status(statusCode)
+    
+    res.status(204)
         .json({
             success: true,
             data: link
         });
+        
 };
