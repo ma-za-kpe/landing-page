@@ -15,6 +15,9 @@ A simple website to showcase monthly android project challenges, that any one ca
 - pay for hobby hosting oon heroku
 - Add a new letter feature
 - Add the second project.
+- Add get all link posts feature(page)
+- add github authentication
+- Link rating and comments feature
 
 ## Credit
 - [Joshua Murigi](https://github.com/ryggs) - Software Developer, Graphics Designer, Entrepreneure
