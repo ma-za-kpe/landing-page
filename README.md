@@ -1,7 +1,7 @@
 # landing-page
 ![](media/landing.png)
 ## About
-A simple website to showcase monthly android project challenges, that any one can participate in. fint the heroku link here.
+A simple website to showcase monthly android project challenges, that any one can participate in. Find the heroku link here.
 - [Practice android here](https://afternoon-peak-96228.herokuapp.com/) - Share or try your luck.
 ## Built With 🛠
 - [NodeJS](https://nodejs.org/en/about/) -An asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. .
