@@ -19,7 +19,7 @@ A simple website to showcase monthly android project challenges, that any one ca
 ## Credit
 - [Joshua Murigi](https://github.com/ryggs) - Software Developer, Graphics Designer, Entrepreneure
 - [Bill Odida]() - Software Developer, Social Media Influencer
-- [Maku Pauline Mazakpe](https://www.maku.dev/) - Software Developer
+- [Maku Pauline Mazakpe]() - Software Developer
 
 ## Contact
 If you need any help, you can connect with me.
