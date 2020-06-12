@@ -12,7 +12,7 @@ A simple website to showcase monthly android project challenges, that any one ca
 
 ## TODO
 - Buy domain name from name cheap.
-- pay for hobby hosting oon heroku
+- pay for hobby hosting on heroku
 - Add a new letter feature
 - Add the second project.
 - Add get all link posts feature(page)
@@ -20,7 +20,7 @@ A simple website to showcase monthly android project challenges, that any one ca
 - Link rating and comments feature
 
 ## Credit
-- [Joshua Murigi](https://github.com/ryggs) - Software Developer, Graphics Designer, Entrepreneure
+- [Joshua Murigi](https://github.com/ryggs) - Software Developer, Graphics Designer, Entrepreneur
 - [Bill Odida](https://github.com/wolfof420Street) - Software Developer, Social Media Influencer
 - [Maku Pauline Mazakpe]() - Software Developer
 
