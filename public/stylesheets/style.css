@@ -15,3 +15,11 @@ a {
   color: #00B7FF;
 }
 
+/* project mask */
+.visible {
+    visibility: visible;
+}
+.invisible {
+    visibility: hidden;
+}
+
